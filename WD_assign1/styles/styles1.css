@@ -1,0 +1,184 @@
+.main-section {
+    background-color: rgb(228, 229, 230);
+    height: 100%;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+.background-white {
+    background-color: white;
+}
+
+th, td {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.feature {
+    border: 5px red;
+    float: left;
+    padding-right: 7%;
+}
+
+p {
+    padding: 0%;
+}
+
+.title {
+    color: grey;
+}
+
+.pro {
+    color: rgb(46, 115, 194);
+}
+
+.feature {
+    font-weight: bold;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.fa-stack[data-count]:after {
+    position: absolute;
+    right: 0%;
+    top: 1%;
+    content: attr(data-count);
+    font-size: 30%;
+    padding: .6em;
+    border-radius: 999px;
+    line-height: .55em;
+    color: white;
+    background: rgba(255, 0, 0, .85);
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.sec {
+    position: relative;
+    right: -13px;
+    top: -22px;
+}
+
+.counter.counter-lg {
+    top: -24px !important;
+}
+
+.notification {
+    padding: 0%;
+}
+
+.dashboard {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.blue-text {
+    color: rgb(46, 115, 194);
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.text-font {
+    font-weight: 700;
+}
+
+.sidebar-dashboard {
+    font-weight: bold;
+    color: rgb(46, 115, 194);
+}
+
+.sidebar-icons {
+    margin-right: 1%;
+}
+
+.sidebar-menu-item {
+    font-weight: 700;
+    color: black;
+}
+
+.calendar-color {
+    color: cornflowerblue;
+}
+
+.users-color {
+    color: green;
+}
+
+.messages-color {
+    color: darkorange;
+}
+
+.email-color {
+    color: deeppink;
+}
+
+.green-text {
+    color: green;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.group2 .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+}
+
+.group2 .btn-check, .btn-outline-primary {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.group1 .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+}
+
+.group1 .btn-check, .btn-outline-primary {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.sidenav {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+}
